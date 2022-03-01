@@ -5,4 +5,4 @@ apt install net-tools -y
 apt-get install openssh-server -y
 systemctl enable ssh
 systemctl start ssh
-apt intall ansible -y
+apt install ansible -y
