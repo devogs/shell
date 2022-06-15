@@ -1,1 +1,9 @@
+#!/bin/bash
 
+apt update && apt upgrade -y
+apt install net-tools -y
+apt install ansible -y
+apt install git -y
+apt install pip3
+git config --global user.name "devogs"
+git config --global user.email billy.bob@devogs.xyz
