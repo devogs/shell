@@ -1,0 +1,7 @@
+sudo add-apt-repository ppa:oem-solutions-group/intel-ipu6
+sudo apt update
+sudo apt install linux-modules-ipu6-generic-hwe-22.04 linux-modules-ivsc-generic-hwe-22.04 libcamhal-ipu6ep0 linux-firmware
+sudo reboot
+
+v4l2-ctl --list-devices
+guvcview -d /dev/video0
